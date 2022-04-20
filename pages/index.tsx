@@ -26,10 +26,9 @@ const Home: NextPage = () => {
       </Head>
       <div className="h-screen w-screen flex justify-center items-center bg-gradient-to-t from-gray-700 via-gray-900 to-black">
         <div className="font-bold text-4xl flex justify-center text-white">
-          {/* container for Hapax */}
           <div className="flex tracking-wide">
             <motion.div
-              animate={{ y: -40 }}
+              animate={{ y: -40, x: -20 }}
               transition={{ delay: 4, duration: 1 }}
               style={{ position: "relative" }}
             >
@@ -75,7 +74,7 @@ const Home: NextPage = () => {
               </motion.div>
             </motion.div>
             <motion.div
-              animate={{ y: 40 }}
+              animate={{ y: 40, x: 10 }}
               transition={{ delay: 5, duration: 1 }}
             >
               <motion.div
